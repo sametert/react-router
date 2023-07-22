@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, useNavigate} from 'react-router-dom'
+import {Link, useNavigate, NavLink} from 'react-router-dom'
 
 function Menu() {
     const navigate = useNavigate();
@@ -28,7 +28,7 @@ function Menu() {
             </li> */}
 
             <li>
-                <Link to='users'>Users</Link>
+                <NavLink to='users'>Users</NavLink>
             </li>
             <li style={{marginBottom:"10px"}}>
                 <Link to='contact'>Contact</Link>

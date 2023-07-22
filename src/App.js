@@ -22,9 +22,9 @@ function App() {
                   <Route path='users' element={<Users />}></Route>
                   <Route path='users/:id' element={<UserDetail />}></Route>
                   <Route path='contact' element={<Contact />}></Route>
+                  <Route path='contact/samet' element={<ContactDetail />}></Route>
               </Route>
               
-              {/* <Route path='contact/:person' element={<ContactDetail />}></Route> */}
               <Route path='auth' element={<AuthLayout/>}>
                 <Route index element={<Login />}></Route>
                 <Route path='register' element={<Register />}></Route>
